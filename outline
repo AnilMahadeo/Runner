@@ -1,0 +1,31 @@
+//runner outline by Anil Mahadeo
+
+
+var p = player
+var jm = jumping animation
+var cp = checkpoint
+on death screen show score and option to play again 
+
+p is a red square on top of a grey square
+
+if (user press right arrow key) 
+  move p x:1 and face forward
+if(user press up arrow key)
+  move p up y:4 and do jm
+if(user press left arrow key)
+  move p left 1 and face left
+if(user press down arrow key)
+  do crouch animation
+if(collision with killbrick, show death screen)
+
+start p at x:0, y:0
+
+at x:5, y:3, insert killbrick
+
+at x:7-10, y:0 insert killbrick
+
+repeat lines 19-21, each time increasing movement by 50%
+
+determine score by 1000 pts per each time lines 19-21 are repeated
+
+//how did this go from pseudocode to basically nothing?
